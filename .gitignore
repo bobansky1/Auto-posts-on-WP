@@ -1,0 +1,44 @@
+# Секреты и конфиги
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Pytest / Hypothesis
+.pytest_cache/
+.hypothesis/
+htmlcov/
+.coverage
+
+# БД
+*.db
+*.sqlite
+*.sqlite3
+
+# Node / Frontend
+web/frontend/node_modules/
+web/frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Kiro specs (опционально — можно убрать если хочешь хранить)
+# .kiro/
